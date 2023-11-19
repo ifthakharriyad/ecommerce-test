@@ -17,5 +17,5 @@ app.get("/api/v1/products", async (req, res) => {
 });
 
 app.listen(PORT, () => {
-  console.log(`Server is running in localhost:${PORT}`);
+  console.log(`SERVER IS RUNNING AT http://localhost:${PORT}`);
 });
